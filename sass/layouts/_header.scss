@@ -1,0 +1,16 @@
+.header {
+    padding: 14px 0;
+    background-color: black;
+    color: white;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &__navigation {
+        margin-left: 21px;
+    }
+    &__design-by {
+        display: inline-block;
+        margin-left: auto;
+    }   
+}

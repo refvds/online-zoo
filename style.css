@@ -317,6 +317,10 @@ body {
   font-family: Roboto, "Open Sans", sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
 h1 {
   font-style: normal;
   font-weight: 400;
@@ -339,9 +343,61 @@ h3 {
   line-height: 130%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .wrapper {
   max-width: 1160px;
   margin: auto;
+}
+
+.header {
+  padding: 14px 0;
+  background-color: black;
+  color: white;
+}
+.header__wrapper {
+  display: flex;
+  align-items: center;
+}
+.header__navigation {
+  margin-left: 21px;
+}
+.header__design-by {
+  display: inline-block;
+  margin-left: auto;
+}
+
+.logo {
+  width: 82px;
+  height: 52px;
+  border: 1px solid white;
+  border-radius: 2px;
+  position: relative;
+  z-index: 1;
+}
+.logo-link::after {
+  position: absolute;
+  content: url("./assets/logo/bamboo.svg");
+  z-index: 5;
+  width: 7.03px;
+  height: 20.98px;
+  color: white;
+  bottom: 4;
+  left: 10px;
+}
+
+.navigation__list {
+  display: flex;
+  gap: 58px;
+  line-height: 2.2rem;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=style.css.map */

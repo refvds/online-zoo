@@ -1,0 +1,18 @@
+.logo {
+    width: 82px;
+    height: 52px;
+    border: 1px solid white;
+    border-radius: 2px;
+    position: relative;
+    z-index: 1;
+    &-link::after {       
+        position: absolute;
+        content:url('./assets/logo/bamboo.svg');   
+        z-index: 5;
+        width: 7.03px;
+        height: 20.98px; 
+        color: white;
+        bottom: 4;
+        left: 10px;
+    }
+}
