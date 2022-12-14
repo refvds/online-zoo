@@ -1,0 +1,14 @@
+@mixin fontSettings($size, $lineHeight, $weight: 400, $style: normal) {
+    font-size: $size;
+    font-style: $style;
+    font-weight: $weight;
+    line-height: $lineHeight;
+}
+
+@mixin buttonSettings($transform, $button-radius, $bg-color-gradient, $font-color, $width) {
+    text-transform: $transform;
+    border-radius: $button-radius;
+    background-image: $bg-color-gradient;
+    color: $font-color;
+    width: $width;
+}

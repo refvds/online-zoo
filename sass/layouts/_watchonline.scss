@@ -1,0 +1,42 @@
+.watchonline {
+    background-image: url('./assets/watchonline/panda_bg.png');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    padding-bottom: 700px;
+}
+
+.watchonline__info-block{
+    padding-top: 86px;
+    float: right;
+    position: relative;
+    z-index: 1;
+    &::before {
+        position: absolute;
+        content: '';
+        z-index: -1;
+        width: 46.5rem;
+        height: 46.5rem;
+        background-color: $color-orange;
+        border-radius: 50%;
+        top: 9px;
+        left: -72px;
+    }
+}
+
+.watchonline__title {
+    max-width: 500px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    @include fontSettings($weight: 700, $size: 10.7rem, $lineHeight: 75%);
+   
+}
+
+.watchonline__highlight {
+    color: $color-yellow;
+}
+
+.watchonline__button {
+    margin-top: 60px;
+    margin-left: 21%;
+}

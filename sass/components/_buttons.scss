@@ -1,0 +1,10 @@
+.button {
+    border: none;
+    padding: 1.6rem;
+    text-align: center;
+    &--rounded {
+        @extend %rounded-btn;
+    }
+}
+
+

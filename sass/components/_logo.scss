@@ -5,14 +5,14 @@
     border-radius: 2px;
     position: relative;
     z-index: 1;
-    &-link::after {       
+    &::after {       
         position: absolute;
         content:url('./assets/logo/bamboo.svg');   
         z-index: 5;
         width: 7.03px;
         height: 20.98px; 
         color: white;
-        bottom: 4;
+        bottom: 12px;
         left: 10px;
     }
 }

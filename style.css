@@ -308,6 +308,15 @@ template {
   display: none;
 }
 
+.button--rounded {
+  background-image: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  color: white;
+  text-transform: uppercase;
+  width: 29.8rem;
+  padding: 1.6rem 0;
+  border-radius: 2.5rem;
+}
+
 html {
   font-size: 10px;
 }
@@ -322,24 +331,24 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
+  font-size: 1.9rem;
   font-style: normal;
   font-weight: 400;
-  font-size: 19.0145px;
   line-height: 120%;
   text-align: center;
 }
 
 h2 {
+  font-size: 4.8rem;
   font-style: normal;
   font-weight: 400;
-  font-size: 48px;
   line-height: 120%;
 }
 
 h3 {
+  font-size: 3.6rem;
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
   line-height: 130%;
 }
 
@@ -374,6 +383,51 @@ ul {
   margin-left: auto;
 }
 
+.watchonline {
+  background-image: url("./assets/watchonline/panda_bg.png");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  padding-bottom: 700px;
+}
+
+.watchonline__info-block {
+  padding-top: 86px;
+  float: right;
+  position: relative;
+  z-index: 1;
+}
+.watchonline__info-block::before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  width: 46.5rem;
+  height: 46.5rem;
+  background-color: #FE9013;
+  border-radius: 50%;
+  top: 9px;
+  left: -72px;
+}
+
+.watchonline__title {
+  max-width: 500px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10.7rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 75%;
+}
+
+.watchonline__highlight {
+  color: #FFEE2E;
+}
+
+.watchonline__button {
+  margin-top: 60px;
+  margin-left: 21%;
+}
+
 .logo {
   width: 82px;
   height: 52px;
@@ -382,14 +436,14 @@ ul {
   position: relative;
   z-index: 1;
 }
-.logo-link::after {
+.logo::after {
   position: absolute;
   content: url("./assets/logo/bamboo.svg");
   z-index: 5;
   width: 7.03px;
   height: 20.98px;
   color: white;
-  bottom: 4;
+  bottom: 12px;
   left: 10px;
 }
 
@@ -398,6 +452,12 @@ ul {
   gap: 58px;
   line-height: 2.2rem;
   font-weight: 500;
+}
+
+.button {
+  border: none;
+  padding: 1.6rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
