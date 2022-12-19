@@ -1,0 +1,29 @@
+.pet-card {
+    border: 1.7px solid $color-orange;
+    border-radius: 5px;
+}
+
+.pet-card__info-block {
+    padding: 0 1.3rem 1.4rem 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pet-card__title {
+    text-transform: uppercase;
+    @include fontSettings($size: 1.6rem, $lineHeight: 2.2rem,  $weight: 500);
+    color: black;
+}
+
+.pet-card__location {
+    display: inline-block;
+    @include fontSettings($size: 1.5rem, $weight: 300, $lineHeight: 1.8rem);
+    color: black;
+}
+
+.pet-card__icon {
+    display: inline-block;
+    margin-left: auto;
+
+}

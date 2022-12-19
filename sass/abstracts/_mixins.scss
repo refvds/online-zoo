@@ -3,6 +3,7 @@
     font-style: $style;
     font-weight: $weight;
     line-height: $lineHeight;
+
 }
 
 @mixin buttonSettings($transform, $button-radius, $bg-color-gradient, $font-color, $width) {

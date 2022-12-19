@@ -1,0 +1,41 @@
+.pets {
+    padding-top: 177px;
+    position: relative;
+}
+
+.pet-card {
+    max-width: 366px;
+}
+
+.pets__prev-button, .pets__next-button  {
+    width: 6.2rem;
+    height: 6.2rem;
+    border-radius: 50%;
+    background-color: $color-orange;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    & > img {
+        display: block;
+    }
+
+}
+
+.pets__buttons {
+    position: absolute;
+    top: 49%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pets__prev-button {
+    margin-left: -80px;
+}
+.pets__next-button {
+    margin-left: 1196px;
+}
+
+.pets__button {
+    margin-top: 74px;
+    margin-left: 37%;
+}
