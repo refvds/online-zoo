@@ -545,6 +545,7 @@ ul {
 
 .pets {
   padding-top: 177px;
+  padding-bottom: 100px;
   position: relative;
 }
 
@@ -567,7 +568,7 @@ ul {
 
 .pets__buttons {
   position: absolute;
-  top: 49%;
+  top: 45%;
   display: flex;
   justify-content: space-between;
 }
@@ -583,6 +584,16 @@ ul {
 .pets__button {
   margin-top: 74px;
   margin-left: 37%;
+}
+
+.pets__flower {
+  bottom: 0;
+}
+.pets__flower--left {
+  left: 0;
+}
+.pets__flower--right {
+  right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
