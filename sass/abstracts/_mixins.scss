@@ -12,3 +12,9 @@
     color: $font-color;
     width: $width;
 }
+
+@mixin columns($width) {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: $width;
+}
