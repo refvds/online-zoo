@@ -308,7 +308,7 @@ template {
   display: none;
 }
 
-.button--rounded {
+.button--little-rounded, .button--rounded {
   background-image: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
   color: white;
   text-transform: uppercase;
@@ -401,6 +401,10 @@ ul {
   padding: 1.6rem;
   text-align: center;
 }
+.button--little-rounded {
+  border-radius: 5px;
+}
+
 .pet-card {
   border: 1.7px solid #FE9013;
   border-radius: 5px;
@@ -700,6 +704,82 @@ ul {
 .pick-friend__button {
   margin-top: 65px;
   margin-left: 30%;
+}
+
+.testimonials {
+  padding-top: 140px;
+  padding-bottom: 180px;
+  position: relative;
+}
+
+.testimonials__title {
+  text-align: center;
+  color: #333B41;
+  font-size: 3.6rem;
+  line-height: 4.7rem;
+}
+
+.testimonials__cards {
+  margin-top: 47px;
+  display: flex;
+  gap: 30px;
+}
+
+.testimonial-card {
+  max-width: 270px;
+  max-height: 393px;
+  border: double 2px transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#F1F3F2, #F1F3F2), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.testimonial-card__wrapper {
+  padding: 1.5rem 1.5rem 1.9rem 1.6rem;
+}
+
+.testimonial-card__top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.testimonial-card__comment {
+  padding-top: 10px;
+  max-height: 309px;
+  overflow: hidden;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.8rem;
+  color: #767474;
+}
+
+.testimonial-card__name {
+  font-size: 1.6rem;
+  color: black;
+  line-height: 1.9rem;
+}
+
+.testimonial-card__location,
+.testimonial-card__time {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.8rem;
+  color: #BDBDBD;
+}
+
+.testimonials-swiper {
+  padding-top: 47px;
+}
+
+.testimonials__button {
+  margin-top: 60px;
+}
+
+.testimonials__flower {
+  bottom: 0;
+  right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,6 +5,10 @@
     &--rounded {
         @extend %rounded-btn;
     }
+    &--little-rounded {
+        @extend %rounded-btn;
+        border-radius: 5px;
+    }
 }
 
 
